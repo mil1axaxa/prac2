@@ -1,12 +1,25 @@
 {
-    "well_id": "W-133",
-    "depth_m": 3150,
-    "q_liq": 55.5,
-    "w_pct": 78.0,
-    "is_active": true,
-    "pump": {
-        "model": "ЭЦН5-80-1800",
-        "power_kw": 105.0
-    },
-    "field_name": "Приобское"
+    "pad_id": "PAD-23",
+    "well_id": "W-233",
+    "p_res_mpa": 28.5,
+    "p_bhp_mpa": 17.2,
+    "mode": "PUMPING",
+    "is_online": true,
+    "sensors": [
+        {
+            "code": "T-01",
+            "value": 49.5,
+            "unit": "C"
+        },
+        {
+            "code": "Q-01",
+            "value": 92.0,
+            "unit": "m3/d"
+        },
+        {
+            "code": "P-01",
+            "value": 17.2,
+            "unit": "MPa"
+        }
+    ]
 }
